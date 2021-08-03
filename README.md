@@ -16,3 +16,8 @@ BlueCity 初始化 TiDB 集群脚本；可用于`qcloud`, `aws` 云厂商；
 注：以上脚本请使用root权限执行；
 
 请注意修改脚本中对应的内容关键词：
+
+- $YOUR-SYSTEM-PASSWORD 初始化 centos 操作系统时，请提供 centos 密码；
+- $YOUR-LOGIN-RSA 云厂商提供的登录主机密钥；
+- $YOUR-TIUP-PASSWORD TiUP 所在机器（中控机）tidb账户密码；
+- $YOUR-LOGIN-RSA 中控机tidb密钥；
